@@ -1,25 +1,27 @@
-import './App.css';
 import React from "react";
-import {Route, Switch } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Navbar from "./Components/Navbar";
 import Home from "./Pages/Home";
-import Footer from "./Components/Footer"
+import Footer from "./Components/Footer";
+import Sponsors from "./Pages/Sponsors";
+import Speakers from "./Pages/Speakers";
+import Contact from "./Pages/Contact";
+
 
 function App() {
   return (
-    
     <React.Fragment>
       <Navbar />
-      <Switch>
-        <Route exact path="/" component={Home} />
-        {/*<Route path="/blogs" component={Blogs} />
-        <Route path="/projects" component={Projects} />
-        <Route path="/about" component={About} />
-  <Route path="/contact" component={Contact} />*/}
-      </Switch>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<Home />}  />
+        <Route path="/program" element={<Home />} />
+        <Route path="/speakers" element={<Speakers />} />
+        <Route path="/sponsors" element={<Sponsors />} />
+        <Route path="/contact" element={<Contact />} />  
+      </Routes>
       <Footer/>
-    </React.Fragment>   
-  
+    </React.Fragment>
   );
 }
 

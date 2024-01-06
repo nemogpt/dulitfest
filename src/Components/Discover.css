@@ -1,0 +1,8 @@
+.discover{
+    font-size: 62.5%;
+    padding: 40px 80px;
+    margin:30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

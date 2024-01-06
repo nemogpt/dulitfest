@@ -1,0 +1,26 @@
+.bgimg-1, .bgimg-2, .bgimg-3{
+    position: relative;
+    background-attachment: fixed; /* Parallax Effect */
+    background-position: center; /* Parallax Effect */
+    background-repeat: no-repeat; /* Parallax Effect */
+    background-size: cover; /* Parallax Effect */
+  }
+  .About{
+    font-size: 62.5%;
+    text-wrap:wrap;
+    text-align: center;
+    word-wrap: break-word;
+    overflow-x:hidden;
+  }
+  .bgimg-1{
+    background-image: url(https://c1.staticflickr.com/3/2842/33486131571_cac9b7cd9c_b.jpg);
+    min-height: 50vh;
+  }
+  .about{
+    
+    position: relative;
+    padding: 3em ;
+    color: #f1f1f1;
+    /* font-size: 10em; */
+    
+  }

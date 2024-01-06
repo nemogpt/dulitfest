@@ -1,0 +1,36 @@
+.speakers-section-three {
+    position: relative;
+    padding: 120px 0 90px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .sec-title h2 {
+    position: relative;
+    display: inline-block;
+    font-size: 48px;
+    line-height: 1.2em;
+    color: #1e1f36;
+    font-weight: 700;
+  }
+  .sec-title .text {
+    position: relative;
+    font-size: 16px;
+    line-height: 28px;
+    color: #888;
+    margin-top: 30px;
+  }
+  .sec-title.light h2,
+  .sec-title.light .title {
+    color: #fff;
+    -webkit-text-fill-color: inherit;
+  }
+  .text-center {
+    text-align: center!important;
+}

@@ -1,0 +1,36 @@
+#sponsorSection {
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 20px 0; 
+    margin:20px;
+  }
+  
+  #sponsorSection h2 {
+    font-family: 'SaxMono', 'lato', sans-serif;
+    font-size: 62px;
+    color: #343a40; /* Replace with your preferred text color */
+  }
+  .sponsorLogos{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .sponsorLogo img {
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: auto;
+  }
+  
+  #sponsorSection p {
+    font-family: 'lato', sans-serif;
+    font-size: 24px;
+    color: #6c757d; /* Replace with your preferred text color */
+  }
+  
+  .sponsorLogo {
+    margin: 30px;
+    justify-content: space-around;
+  }
+  
