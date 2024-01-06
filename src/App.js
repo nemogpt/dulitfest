@@ -6,6 +6,7 @@ import Footer from "./Components/Footer";
 import Sponsors from "./Pages/Sponsors";
 import Speakers from "./Pages/Speakers";
 import Contact from "./Pages/Contact";
+import Register from "./Pages/Register";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/speakers" element={<Speakers />} />
         <Route path="/sponsors" element={<Sponsors />} />
         <Route path="/contact" element={<Contact />} />  
+        <Route path="/register" element={<Register />} /> 
       </Routes>
       <Footer/>
     </React.Fragment>
